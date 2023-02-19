@@ -3,14 +3,14 @@
     "intro": {
       "title": "Hej, I'm Joel Sandén",
       "pillar": "👋",
-      "description": "I'm a father of two from beautiful Falkenberg, Sweden. Currently at Nordic Morning Nordics as a Technology Advisor and Lead Frontend Dev. My focus is headless applications and systems that can deliver high quality code over time (I obviously love Typescript and strict linting rules)"
+      "description": "I'm a father of two from beautiful Falkenberg, Sweden. Currently working at <a href=\"https://www.nordicmorning.com\" aria-label=\"Link to Nordic Mornings website\" target=\"_blank\">Nordic Morning</a> as a Technology Advisor and Senior Frontend Lead. My focus is headless applications and systems that can deliver high quality code over time (I obviously love Typescript and strict linting rules)"
     }
   },
   "cv": {
     "intro": {
       "title": "Previously",
       "pillar": "📄",
-      "description": "I have a long history within digital. I once founded a computer museum, I've done well over 300 lectures on digital transformation, worked as a Creative Director and much more. However, the last couple of years has been focused on doing front end development and CD/CI tooling."
+      "description": "I have a long history within digital. I once founded a computer museum, I've done well over 300 lectures on digital transformation, worked as a Creative Director and much more. However, the last couple of years has been focused on doing frontend development and CD/CI tooling."
     },
     "experiences": [
       {
@@ -18,28 +18,28 @@
         "end": "",
         "title": "Senior Frontend Developer & Technology Advisor",
         "company": "Nordic Morning / Comprend",
-        "description": "At Nordic Morning I develop for clients such as SCA, Vattenfall, Diageo, Folkhälsomyndigheten and Combitech. Apart from coding I also help with a11y reviews, code reviews and more."
+        "description": "At Nordic Morning I deliver value for clients such as SCA, Vattenfall, Diageo, Folkhälsomyndigheten and Combitech. Apart from coding I also help with a11y, code reviews, backlog refinements etc."
       },
       {
         "start": "2020",
         "end": "2022",
         "title": "Product Owner / Senior React Developer",
         "company": "Region Halland",
-        "description": "At Region Halland I built up a team of developers that initially worked with the regionhalland.se but as soon as Covid-19 broke we shifted focus to providing vaccination apps in React for our citizens and coworkers. Our app handled more than 1 million vaccinebookings and a multitude of internal tools for on demand bookings, statistics, flu-vaccines and more."
+        "description": "At Region Halland I built up a team of developers that initially worked with regionhalland.se but as soon as Covid-19 broke we shifted focus over night. Our react based apps handled more than 1 million vaccinations and a multitude of internal features for on demand bookings, push notifications, statistics, booking of flu-vaccines, feature based access and much more."
       },
       {
         "start": "2018",
         "end": "2020",
         "title": "Head of Design Lab",
         "company": "Region Halland",
-        "description": "To accelerate the digital transformation of Region Halland I was tasked with building a design lab. The lab was a team that worked with design thinking, prototyping and more to help the organization understand the digital needs of our citizens."
+        "description": "To accelerate of digital transformation of Region Halland I was tasked with building a design lab. The lab was a team that worked with design thinking and prototyping to help the organization understand the digital needs of our citizens."
       },
       {
         "start": "2015",
         "end": "2018",
         "title": "Digital Strategist",
         "company": "Region Halland",
-        "description": "I made powerpoints. It was boring."
+        "description": "For a couple of years I worked with raising awareness about digital and what it means within healthcare and the relation to the patient. In many cases this was a hard sell but I think we managed to make a difference."
       },
       {
         "icon": "👦🏼",
@@ -97,6 +97,38 @@
         "title": "Previous assignments",
         "company": "University of Linköping, Webbhuset, IT-ceum, Röhsska design museum et al.",
         "description": "Several different experiences. I founded IT-ceum, created exhibitions for Röhsska design museum, worked as a consultant for the University of Linköping and much more."
+      }
+    ]
+  },
+  "projects": {
+    "intro": {
+      "title": "Misc. projects",
+      "pillar": "🔨"
+    },
+    "projects": [
+      {
+        "title": "mitt.regionhalland.se",
+        "url": "https://mitt.regionhalland.se"
+      },
+      {
+        "title": "SCA.se",
+        "url": "https://sca.se"
+      },
+      {
+        "title": "group.vattenfall.com",
+        "url": "https://group.vattenfall.com"
+      },
+      {
+        "title": "Little Reader",
+        "url": "https://simpel.github.io/little-reader/"
+      },
+      {
+        "title": "VSCode extension: Little Template Maker",
+        "url": "https://marketplace.visualstudio.com/items?itemName=se-joelsanden.littletemplatemaker"
+      },
+      {
+        "title": "VSCode extension: Little Lazy Importer",
+        "url": "https://marketplace.visualstudio.com/items?itemName=se-joelsanden.littlelazyimporter"
       }
     ]
   }

@@ -1,5 +1,6 @@
 import { Container, Title, Text, Grid, Skeleton } from '@mantine/core';
 import Experiences from '../../components/experiences/Experiences';
+import Projects from '../../components/projects/Projects';
 import { useContent } from '../../hooks/useContent/useContent';
 import { useStyles } from '../../styles/Page.styles';
 
@@ -38,12 +39,18 @@ const Front = () => {
 						</div>
 					</Grid.Col>
 					<Grid.Col span={'auto'}>
-						<Text size="lg">{data.data.header.intro.description}</Text>
+						<Text
+							size="lg"
+							dangerouslySetInnerHTML={{
+								__html: data.data.header.intro.description,
+							}}
+						/>
 					</Grid.Col>
 					<Grid.Col span={'content'} className={styles.classes.pillar} />
 				</Grid>
 			</Container>
 			<Experiences data={data.data.cv} />
+			<Projects data={data.data.projects} />
 			<Container>
 				<Text size="xs" mt={'200px'} mb="20px" align="center">
 					The end

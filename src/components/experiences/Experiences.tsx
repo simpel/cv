@@ -7,11 +7,11 @@ import type { TExperiences } from './TExperiences';
 const Experiences = ({ data }: TExperiences) => {
 	return (
 		<Container mt="50px">
-			<Row>
+			<Row pillar={data.intro.pillar}>
 				<Title order={2}>{data.intro.title}</Title>
 			</Row>
 
-			<Row pillar={data.intro.pillar}>
+			<Row>
 				<Text size="md">{data.intro.description}</Text>
 			</Row>
 			<Row>

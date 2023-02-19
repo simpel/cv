@@ -48,6 +48,31 @@ const themeStyle: MantineThemeOverride = {
 			color: theme.colorScheme === 'dark' ? theme.colors.dark[0] : theme.black,
 			lineHeight: theme.lineHeight,
 		},
+		a: {
+			display: 'inline-block',
+			lineHeight: '1.1',
+			textDecoration: 'none !important',
+			color: '#000',
+
+			'&::after': {
+				content: '""',
+				width: '50px',
+				display: 'block',
+				height: '2px',
+				background: '#000',
+				transition: 'width .3s, color .3s',
+			},
+
+			'&:hover': {
+				transition: 'color .3s',
+				textDecoration: 'none',
+				color: theme.colors.blue[5],
+				'&::after': {
+					width: '100%',
+					background: theme.colors.blue[5],
+				},
+			},
+		},
 	}),
 };
 
