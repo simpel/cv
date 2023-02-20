@@ -1,4 +1,3 @@
-
 export type TExperience = {
 	start: string;
 	end: string;

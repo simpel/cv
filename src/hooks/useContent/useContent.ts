@@ -1,7 +1,7 @@
 import type { AxiosResponse } from 'axios';
 import axios from 'axios';
 import { useQuery } from '@tanstack/react-query';
-import { TContent } from './TContent';
+import type { TContent } from './TContent';
 
 export const useContent = () => {
 	return useQuery<AxiosResponse<TContent>, Error>({

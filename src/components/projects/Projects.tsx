@@ -3,8 +3,6 @@ import Row from '../row/Row';
 import type { TProjects } from './TProjects';
 
 const Projects = ({ data }: TProjects) => {
-	console.log(data);
-
 	return (
 		<Container mt="50px">
 			<Row pillar={data.intro.pillar}>

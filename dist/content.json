@@ -1,0 +1,135 @@
+{
+  "header": {
+    "intro": {
+      "title": "Hej, I'm Joel Sandén",
+      "pillar": "👋",
+      "description": "I'm a father of two from beautiful Falkenberg, Sweden. Currently working at <a href=\"https://www.nordicmorning.com\" aria-label=\"Link to Nordic Mornings website\" target=\"_blank\">Nordic Morning</a> as a Technology Advisor and Senior Frontend Lead. My focus is headless applications and systems that can deliver high quality code over time (I obviously love Typescript and strict linting rules)"
+    }
+  },
+  "cv": {
+    "intro": {
+      "title": "Previously",
+      "pillar": "📄",
+      "description": "I have a long history within digital. I once founded a computer museum, I've done well over 300 lectures on digital transformation, worked as a Creative Director and much more. However, the last couple of years has been focused on doing frontend development and CD/CI tooling."
+    },
+    "experiences": [
+      {
+        "start": "2023",
+        "end": "",
+        "title": "Senior Frontend Developer & Technology Advisor",
+        "company": "Nordic Morning / Comprend",
+        "description": "At Nordic Morning I deliver value for clients such as SCA, Vattenfall, Diageo, Folkhälsomyndigheten and Combitech. Apart from coding I also help with a11y, code reviews, backlog refinements etc."
+      },
+      {
+        "start": "2020",
+        "end": "2022",
+        "title": "Product Owner / Senior React Developer",
+        "company": "Region Halland",
+        "description": "At Region Halland I built up a team of developers that initially worked with regionhalland.se but as soon as Covid-19 broke we shifted focus over night. Our react based apps handled more than 1 million vaccinations and a multitude of internal features for on demand bookings, push notifications, statistics, booking of flu-vaccines, feature based access and much more."
+      },
+      {
+        "start": "2018",
+        "end": "2020",
+        "title": "Head of Design Lab",
+        "company": "Region Halland",
+        "description": "To accelerate of digital transformation of Region Halland I was tasked with building a design lab. The lab was a team that worked with design thinking and prototyping to help the organization understand the digital needs of our citizens."
+      },
+      {
+        "start": "2015",
+        "end": "2018",
+        "title": "Digital Strategist",
+        "company": "Region Halland",
+        "description": "For a couple of years I worked with raising awareness about digital and what it means within healthcare and the relation to the patient. In many cases this was a hard sell but I think we managed to make a difference."
+      },
+      {
+        "icon": "👦🏼",
+        "start": "2015",
+        "title": "Kid no. 2"
+      },
+      {
+        "start": "2015",
+        "end": "2020",
+        "title": "Lecturer",
+        "company": "Self employed",
+        "description": "For a couple of years I did lectures on digital transformation for clients such as Hyperisland, the university of Halmstad, the muncipalities of Falkenberg, Varberg, Helsingborg, Halmstad and many more. All in all I did over 300 lectures."
+      },
+      {
+        "start": "2014",
+        "end": "2015",
+        "title": "Product Owner Enterprise & Search",
+        "company": "TeliaSonera",
+        "description": "As a PO I was responsible for TeliaSoneras B2B business online and our search engine. When I had time I also did a fair share of coding."
+      },
+      {
+        "start": "2013",
+        "icon": "👧🏻",
+        "title": "Kid no. 1"
+      },
+      {
+        "start": "2011",
+        "end": "2014",
+        "title": "Creative Director",
+        "company": "TeliaSonera",
+        "description": "Modified, improved and evolved TeliaSoneras digital brand over all digital channels. Together with a bunch if brilliant people I oversaw the shift to TeliaSoneras current brand (the purple thingie)"
+      },
+      {
+        "start": "2009",
+        "icon": "💍",
+        "title": "Got married"
+      },
+      {
+        "start": "2009",
+        "end": "2011",
+        "title": "Senior Prototyper & UX specialist",
+        "company": "Nokia",
+        "description": "At Nokia Berlin we crafted Nokias response to the iPhone. As we all know today Nokia failed miserably but I still think we did a great job. We created the Ovi SDK which in essence was a JavaScript SDK for the phone. Perhaps 10 or so years to early."
+      },
+      {
+        "start": "2008",
+        "end": "2009",
+        "title": "Conceptual Programmer",
+        "company": "Stendahls.net",
+        "description": "I did Flash. I'm sorry. Worked mainly with brands within the  Husqvarna group and developed their global digital presence."
+      },
+      {
+        "start": "The dawn of time",
+        "end": "-2009",
+        "title": "Previous assignments",
+        "company": "University of Linköping, Webbhuset, IT-ceum, Röhsska design museum et al.",
+        "description": "Several different experiences. I founded IT-ceum, created exhibitions for Röhsska design museum, worked as a consultant for the University of Linköping and much more."
+      }
+    ]
+  },
+  "projects": {
+    "intro": {
+      "title": "Misc. projects",
+      "pillar": "🔨"
+    },
+    "projects": [
+      {
+        "title": "mitt.regionhalland.se",
+        "url": "https://mitt.regionhalland.se"
+      },
+      {
+        "title": "SCA.se",
+        "url": "https://sca.se"
+      },
+      {
+        "title": "group.vattenfall.com",
+        "url": "https://group.vattenfall.com"
+      },
+      {
+        "title": "Little Reader",
+        "url": "https://simpel.github.io/little-reader/"
+      },
+      {
+        "title": "VSCode extension: Little Template Maker",
+        "url": "https://marketplace.visualstudio.com/items?itemName=se-joelsanden.littletemplatemaker"
+      },
+      {
+        "title": "VSCode extension: Little Lazy Importer",
+        "url": "https://marketplace.visualstudio.com/items?itemName=se-joelsanden.littlelazyimporter"
+      }
+    ]
+  }
+}
