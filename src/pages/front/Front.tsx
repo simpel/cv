@@ -1,4 +1,4 @@
-import { Container, Title, Text, Grid, Skeleton } from '@mantine/core';
+import { Container, Title, Text, Grid, Skeleton, Space, Anchor, SimpleGrid } from '@mantine/core';
 import Experiences from '../../components/experiences/Experiences';
 import Projects from '../../components/projects/Projects';
 import { useContent } from '../../hooks/useContent/useContent';
@@ -45,6 +45,10 @@ const Front = () => {
 								__html: data.data.header.intro.description,
 							}}
 						/>
+						<Space h={30}/>
+						<SimpleGrid>
+						<Anchor href='https://www.linkedin.com/in/joelsanden/'>LinkedIn</Anchor> <Space w={20}/> <Anchor href='https://github.com/simpel/'>LinkedIn</Anchor>
+						</SimpleGrid>
 					</Grid.Col>
 					<Grid.Col span={'content'} className={styles.classes.pillar} />
 				</Grid>
