@@ -18,6 +18,7 @@ const Experiences = ({ data }: TExperiences) => {
 				<Timeline lineWidth={2} active={-1} mt="xl">
 					{data.experiences.map((experience) => (
 						<Timeline.Item
+							key={experience.title.trim()}
 							title={
 								<Experience.Title>
 									{experience.icon

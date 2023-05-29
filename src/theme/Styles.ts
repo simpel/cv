@@ -56,7 +56,7 @@ const themeStyle: MantineThemeOverride = {
 
 			'&::after': {
 				content: '""',
-				width: '50px',
+				width: '30px',
 				display: 'block',
 				height: '2px',
 				background: '#000',

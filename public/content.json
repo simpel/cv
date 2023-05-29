@@ -105,7 +105,7 @@
       "title": "Misc. projects",
       "pillar": "🔨"
     },
-    "projects": [
+    "list": [
       {
         "title": "mitt.regionhalland.se",
         "url": "https://mitt.regionhalland.se"
@@ -119,6 +119,10 @@
         "url": "https://group.vattenfall.com"
       },
       {
+        "title": "Diageo.com",
+        "url": "https://diageo.com"
+      },
+      {
         "title": "Little Reader",
         "url": "https://simpel.github.io/little-reader/"
       },
@@ -129,6 +133,22 @@
       {
         "title": "VSCode extension: Little Lazy Importer",
         "url": "https://marketplace.visualstudio.com/items?itemName=se-joelsanden.littlelazyimporter"
+      }
+    ]
+  },
+  "elsewhere": {
+    "intro": {
+      "title": "Elsewhere",
+      "pillar": "🗺️"
+    },
+    "list": [
+      {
+        "title": "Linkedin",
+        "url": "https://www.linkedin.com/in/joelsanden/"
+      },
+      {
+        "title": "GitHub",
+        "url": "https://github.com/simpel/"
       }
     ]
   }

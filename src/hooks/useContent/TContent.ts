@@ -16,7 +16,7 @@ export type TIntro = {
 export type THeader = {
 	intro: TIntro;
 };
-export type TProject = {
+export type TListItem = {
 	title: string;
 	url: string;
 };
@@ -26,13 +26,14 @@ export type TCv = {
 	experiences: TExperience[];
 };
 
-export type TProjects = {
+export type TListData = {
 	intro: TIntro;
-	projects: TProject[];
+	list: TListItem[];
 };
 
 export type TContent = {
 	header: THeader;
 	cv: TCv;
-	projects: TProjects;
+	projects: TListData;
+	elsewhere: TListData;
 };
