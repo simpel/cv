@@ -18,7 +18,7 @@
         "end": "",
         "title": "Senior Frontend Developer & Technology Advisor",
         "company": "Comprend",
-        "description": "At Comprend I deliver value for clients such as SCA, Vattenfall, Diageo, Folkhälsomyndigheten and Combitech. Apart from coding I also help with a11y, code reviews, backlog refinements etc."
+        "description": "At Comprend I deliver value for clients such as SCA, Vattenfall, Diageo, Folkhälsomyndigheten and Combitech. Apart from coding I also help with CD/CI processes, a11y, code reviews, backlog refinements etc."
       },
       {
         "start": "2020",
@@ -106,6 +106,18 @@
       "pillar": "🔨"
     },
     "list": [
+       {
+        "title": "DrinkIQ",
+        "url": "https://www.drinkiq.com/sv-se"
+      },
+      {
+        "title": "Vattenfall Group",
+        "url": "https://group.vattenfall.com/"
+      },
+             {
+        "title": "NPM packages for Comprend",
+        "url": "https://www.npmjs.com/search?q=%40comprend"
+      },
       {
         "title": "mitt.regionhalland.se",
         "url": "https://mitt.regionhalland.se"
